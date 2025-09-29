@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
@@ -152,14 +156,16 @@ body {
 /* About Section */
 .about,
 .menu,
-.contact {
+.contact,
+.reservation {
   padding: 10rem 7% 1.4rem;
   margin-bottom: 3rem;
 }
 
 .about h2,
 .menu h2,
-.contact h2 {
+.contact h2,
+.reservation h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -167,7 +173,8 @@ body {
 
 .about h2 span,
 .menu h2 span,
-.contact h2 span {
+.contact h2 span,
+.reservation h2 span {
   color: var(--primary);
 }
 
@@ -215,12 +222,9 @@ body {
 }
 
 /* Menu Section */
-.menu h2,
-.contact h2 {
-  margin-bottom: 1rem;
-}
 .menu p,
-.contact p {
+.contact p,
+.reservation p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -249,35 +253,61 @@ body {
   margin: 1rem auto 0.5rem;
 }
 
-/* Contact Section*/
-.contact .row {
+/* Contact & Reservation Section */
+.reservation .input-group select {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  background: var(--bg);
+  color: #fff;
+}
+
+.reservation .input-group option {
+  background-color: var(--bg);  
+  color: #fff;
+}
+
+.reservation .input-group option:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.contact .row,
+.reservation .row {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
+  border-radius: 2rem;
 }
 
 .contact .row .maps {
   flex: 1 1 60rem;
   width: 100%;
   object-fit: cover;
+  border-radius: 3rem 0 0 3rem;
 }
 
-.contact .row form {
+.contact .row form,
+.reservation .row form {
   flex: 1 1 60rem;
   padding: 5rem 2rem;
   text-align: center;
 }
 
-.contact .row form .input-group {
+.contact .row form .input-group,
+.reservation .row form .input-group {
   display: flex;
   align-items: center;
   margin-top: 2rem;
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
+  border-radius: 0.5rem;
 }
 
-.contact .row form .input-group input {
+.contact .row form .input-group input,
+.reservation .row form .input-group input {
   width: 100%;
   padding: 0.5rem;
   font-size: 1.7rem;
@@ -285,16 +315,25 @@ body {
   color: #fff;
 }
 
-.contact .row form .btn {
+.contact .row form .btn,
+.reservation .row form .btn {
   margin-top: 3rem;
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.7rem;
   color: #fff;
   background-color: var(--primary);
+  border-radius: 1rem;
   cursor: pointer;
 }
 
+.contact .row form .btn:hover,
+.reservation .row form .btn:hover {
+  color: var(--primary);
+  background-color: #fff;
+}
+
+/* Footer Section */
 footer {
   background-color: var(--primary);
   text-align: center;

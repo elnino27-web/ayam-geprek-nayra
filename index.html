@@ -28,6 +28,7 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#reservation">Reservasi</a>
         <a href="#contact">Kontak</a>
       </div>
 
@@ -46,7 +47,7 @@
           Rasakan perpaduan ayam renyah dan sambal pedas khas, kenikmatan
           sederhana penuh kesempurnaan rasa
         </p>
-        <a href="#reservasi" class="cta"><strong>Reservasi Meja</strong></a>
+        <a href="#reservation" class="cta"><strong>Reservasi Meja</strong></a>
       </main>
     </section>
     <!-- Hero Section end -->
@@ -146,6 +147,59 @@
     </section>
     <!-- Menu Section end -->
 
+    <!-- Reservasi Section start -->
+    <section id="reservation" class="reservation">
+      <h2><span>Reservasi</span> Meja</h2>
+      <p>
+        Bersama teman atau keluarga? Amankan tempat Anda di Kedai Nayra dengan
+        melakukan reservasi sekarang juga
+      </p>
+
+      <div class="row">
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="0123456789" />
+          </div>
+          <div class="input-group">
+            <i data-feather="users"></i> 
+            <input type="text" placeholder="Jumlah Orang" />
+          </div>
+          <div class="input-group">
+            <i data-feather="triangle"></i> 
+            <select id="meja">
+              <option value="">-- Pilih Meja --</option>
+              <option value="Meja halaman depan">Meja Depan (1-4 orang per meja)</option>
+              <option value="Meja halaman belakang">Meja Belakang (1-4 orang per meja)</option>
+              <option value="Gazebo Satu">Gazebo Satu (4-15 orang per gazebo)</option>
+              <option value="Gazebo Dua">Gazebo Dua (4-15 orang per gazebo)</option>
+              <option value="Gazebo Tiga">Gazebo Tiga (4-15 orang per gazebo)</option>
+              <option value="Gazebo Empat">Gazebo Empat (4-15 orang per gazebo)</option>
+              <option value="Gazebo Lima">Gazebo Lima (4-15 orang per gazebo)</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <i data-feather="clock"></i>
+            <input type="time" placeholder="Waktu Kedatangan" />
+          </div>
+          <div class="input-group">
+            <i data-feather="calendar"></i>
+            <input type="date" placeholder="Waktu Kedatangan" />
+          </div>
+          <div class="input-group">
+            <i data-feather="edit-3"></i>
+            <input type="text" placeholder="Catatan Tambahan" />
+          </div>
+          <button type="submit" class="btn">Reservasi Sekarang</button>
+        </form>
+      </div>
+    </section>
+    <!-- Reservasi Section end -->
+
     <!-- Kontak Section start -->
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
@@ -167,25 +221,25 @@
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Nama..." />
+            <input type="text" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="number" placeholder="08xxxxx..." />
+            <input type="number" placeholder="0123456789" />
           </div>
           <div class="input-group">
             <i data-feather="home"></i>
-            <input type="text" placeholder="Alamat..." />
+            <input type="text" placeholder="Alamat" />
           </div>
           <div class="input-group">
             <i data-feather="clock"></i>
-            <input type="time" placeholder="waktu pengambilan" />
+            <input type="time"  />
           </div>
           <div class="input-group">
             <i data-feather="shopping-cart"></i>
             <input type="text" placeholder="Pesanan Anda..." />
           </div>
-          <button type="submit" class="btn">Pesan</button>
+          <button type="submit" class="btn">Pesan Sekarang</button>
         </form>
       </div>
     </section>
