@@ -264,7 +264,7 @@ body {
 }
 
 .reservation .input-group option {
-  background-color: var(--bg);  
+  background-color: var(--bg);
   color: #fff;
 }
 
@@ -456,6 +456,7 @@ footer .credit a {
 
   .contact .row .maps {
     height: 30rem;
+    border-radius: 3rem 3rem 0 0;
   }
 
   .contact .row form {
