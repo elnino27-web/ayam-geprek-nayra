@@ -155,7 +155,6 @@ body {
 
 /* About Section */
 .about,
-.menu,
 .contact,
 .reservation {
   padding: 10rem 7% 1.4rem;
@@ -189,6 +188,14 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  mask-image: url('../IMG/MENU/tentang-beans.svg');
+  -webkit-mask-image: url('../IMG/MENU/tentang-beans.svg');
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
 }
 
 .about .row .content {
@@ -208,20 +215,14 @@ body {
   line-height: 1.6;
 }
 
-.menu .cta {
-  margin-top: 1rem auto;
-  display: block;
-  text-align: center;
-  padding: 1rem 3rem;
-  font-size: 1.4rem;
-  color: #fff;
-  background-color: var(--primary);
-  border-radius: 1rem;
-  border-color: #fff;
-  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-}
 
 /* Menu Section */
+.menu {
+  padding: 10rem 7% 1.4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .menu p,
 .contact p,
 .reservation p {
@@ -251,6 +252,19 @@ body {
 
 .menu .row .menu-card-title {
   margin: 1rem auto 0.5rem;
+}
+
+.menu .cta {
+  margin-top: 1rem auto;
+  display: inline-block;
+  justify-content: center;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 1rem;
+  border-color: #fff;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 /* Contact & Reservation Section */
