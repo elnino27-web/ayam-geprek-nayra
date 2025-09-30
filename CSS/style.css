@@ -1,5 +1,5 @@
 :root {
-  --primary: #ec650b;
+  --primary: #ff8c00;
   --bg: #010101;
 }
 
@@ -79,6 +79,12 @@ body {
 
 .navbar .navbar-extra a:hover {
   color: var(--primary);
+}
+
+.navbar .navbar-extra img {
+  width: 30px;
+  height: 30px;
+  border-radius: 80%;
 }
 
 #hamburger-menu {

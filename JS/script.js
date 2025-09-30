@@ -2,8 +2,10 @@
 const navbarNav = document.querySelector(".navbar-nav");
 
 // Ketika hamburger menu di klik
-document.querySelector("#hamburger-menu").onclick = () => {
+document.querySelector("#hamburger-menu").onclick = (e) => {
   navbarNav.classList.toggle("active");
+  navbarNav.focus();
+  e.preventDefault();
 };
 
 // Klik di luar sidebar untuk menghilangkan nav
