@@ -159,19 +159,19 @@
         <form id="reservationForm">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" id="nama" placeholder="Nama" />
+            <input type="text" id="r_nama" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="number" id="nomor" placeholder="0123456789" />
+            <input type="number" id="r_nomor" placeholder="0123456789" />
           </div>
           <div class="input-group">
             <i data-feather="users"></i>
-            <input type="number" id="jumlah" placeholder="Jumlah Orang" />
+            <input type="number" id="r_jumlah" placeholder="Jumlah Orang" />
           </div>
           <div class="input-group">
             <i data-feather="triangle"></i>
-            <select id="meja">
+            <select id="r_meja">
               <option value="">-- Pilih Meja --</option>
               <option value="Meja halaman depan">
                 Meja Depan (1-4 orang per meja)
@@ -198,15 +198,15 @@
           </div>
           <div class="input-group">
             <i data-feather="clock"></i>
-            <input type="time" id="waktu" placeholder="Waktu Kedatangan" />
+            <input type="time" id="r_waktu" placeholder="Waktu Kedatangan" />
           </div>
           <div class="input-group">
             <i data-feather="calendar"></i>
-            <input type="date" id="tanggal" placeholder="Waktu Kedatangan" />
+            <input type="date" id="r_tanggal" placeholder="Waktu Kedatangan" />
           </div>
           <div class="input-group">
             <i data-feather="edit-3"></i>
-            <input type="text" id="catatan" placeholder="Tambahan" />
+            <input type="text" id="r_catatan" placeholder="Tambahan" />
           </div>
           <button type="submit" class="btn">Reservasi Sekarang</button>
         </form>
@@ -232,30 +232,30 @@
           class="maps"
         ></iframe>
 
-        <form action="">
+        <form id="contactForm">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Nama" />
+            <input type="text" id="c_nama" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="number" placeholder="0123456789" />
+            <input type="number" id="c_nomor" placeholder="0123456789" />
           </div>
           <div class="input-group">
             <i data-feather="home"></i>
-            <input type="text" placeholder="Alamat" />
+            <input type="text" id="c_alamat" placeholder="Alamat" />
           </div>
           <div class="input-group">
             <i data-feather="clock"></i>
-            <input type="time" />
+            <input type="time" id="c_waktu" />
           </div>
           <div class="input-group">
             <i data-feather="shopping-cart"></i>
-            <input type="text" placeholder="Pesanan Anda..." />
+            <input type="text" id="c_pesanan" placeholder="Pesanan Anda..." />
           </div>
           <div class="input-group">
             <i data-feather="edit-3"></i>
-            <input type="text" placeholder="Catatan Tambahan" />
+            <input type="text" id="c_tambahan" placeholder="Catatan Tambahan" />
           </div>
           <button type="submit" class="btn">Pesan</button>
         </form>
