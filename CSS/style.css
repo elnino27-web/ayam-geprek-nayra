@@ -208,10 +208,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.about .row .content h3 span {
+  color: var(--primary);
+}
+
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -229,7 +233,7 @@ body {
   text-align: center;
   max-width: 30rem;
   margin: auto;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -463,6 +467,10 @@ footer .credit a {
   .menu p {
     font-size: 1.2rem;
   }
+
+  .menu .row .menu-card img {
+  width: 60%;
+}
 
   .contact .row {
     flex-wrap: wrap;
