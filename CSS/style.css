@@ -190,8 +190,8 @@ body {
   width: 100%;
   mask-image: url('../IMG/MENU/tentang-beans.svg');
   -webkit-mask-image: url('../IMG/MENU/tentang-beans.svg');
-  mask-size: 100%;
-  -webkit-mask-size: 100%;
+  mask-size: contain;
+  -webkit-mask-size: contain;
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-position: center;
