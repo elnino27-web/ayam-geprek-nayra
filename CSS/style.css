@@ -259,6 +259,13 @@ body {
 .menu .row .menu-card img {
   border-radius: 50%;
   width: 80%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu .row .menu-card img:hover {
+  box-shadow: 0 4px 10px var(--primary);
+  transform: scale(1.05);
 }
 
 .menu .row .menu-card-title {
